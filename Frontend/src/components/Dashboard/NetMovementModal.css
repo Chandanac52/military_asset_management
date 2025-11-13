@@ -1,0 +1,70 @@
+.movement-details {
+  padding: 1rem 0;
+}
+
+.movement-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.movement-item:last-child {
+  border-bottom: none;
+}
+
+.movement-item.total {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  border-top: 2px solid #3498db;
+  margin-top: 0.5rem;
+  padding-top: 1rem;
+}
+
+.movement-label {
+  color: #666;
+}
+
+.movement-value {
+  font-weight: 600;
+}
+
+.movement-divider {
+  height: 1px;
+  background: #ddd;
+  margin: 0.5rem 0;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.modal-header h2 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  color: #e74c3c;
+}
