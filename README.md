@@ -70,6 +70,7 @@ All endpoints include authentication and role-based authorization.
 ## Project Structure
 
 Military-Asset-Management-System/
+
 │── Backend/  
 │── Frontend/  
 │── README.md  
@@ -116,7 +117,7 @@ Military-Asset-Management-System/
    npm install  
 
 3. Create .env file:
-   REACT_APP_API_URL=http://localhost:5000/api  
+   REACT_APP_API_URL 
 
 4. Start frontend:
    npm start  
