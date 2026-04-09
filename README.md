@@ -4,7 +4,7 @@
 
 The Military Asset Management System is a web-based application designed to help military commanders and logistics personnel efficiently manage critical assets such as vehicles, weapons, and ammunition across multiple bases. The system enables real-time tracking of asset movements, assignments, and expenditures while ensuring accountability through role-based access control and audit logging.
 
----
+
 
 ## Features
 
@@ -16,7 +16,7 @@ The Military Asset Management System is a web-based application designed to help
 - Secure authentication using JWT  
 - Audit logging for all transactions  
 
----
+
 
 ## Technology Stack
 
@@ -36,7 +36,7 @@ The Military Asset Management System is a web-based application designed to help
 - Axios  
 - CSS  
 
----
+
 
 ## System Architecture
 
@@ -51,7 +51,7 @@ The Military Asset Management System is a web-based application designed to help
 - Assignment: Tracks assets assigned to personnel  
 - Audit Log: Stores all system activity for accountability  
 
----
+
 
 ## API Endpoints
 
@@ -65,7 +65,7 @@ The backend provides RESTful APIs for:
 
 All endpoints include authentication and role-based authorization.
 
----
+
 
 ## Project Structure
 
@@ -75,7 +75,7 @@ Military-Asset-Management-System/
 │── Frontend/  
 │── README.md  
 
----
+
 
 ## Installation and Setup
 
@@ -84,7 +84,7 @@ Military-Asset-Management-System/
 - Node.js (v18 or higher)  
 - MongoDB Atlas account  
 
----
+
 
 ### Backend Setup
 
@@ -106,7 +106,7 @@ Military-Asset-Management-System/
 5. Start backend server:
    npm run dev  
 
----
+
 
 ### Frontend Setup
 
@@ -122,7 +122,7 @@ Military-Asset-Management-System/
 4. Start frontend:
    npm start  
 
----
+
 
 ## Security Features
 
@@ -133,7 +133,7 @@ Military-Asset-Management-System/
 - Helmet for HTTP security headers  
 - Complete audit logging of system activities  
 
----
+
 
 ## Future Enhancements
 
@@ -143,7 +143,7 @@ Military-Asset-Management-System/
 - Cloud deployment and scaling  
 - Enhanced reporting features  
 
----
+
 
 ## Author
 
